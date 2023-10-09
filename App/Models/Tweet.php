@@ -38,4 +38,14 @@ class Tweet extends Model {
 
     return $stmt->fetchAll(\PDO::FETCH_ASSOC);
   }
+
+  public function deletaTweet() {
+    $query = "DELETE FROM tweets WHERE id = :id";
+
+    $stmt = $this->db->prepare($query);
+    $stmt->bindValue(":id", $this->__get("id"));
+    $stmt->execute();
+
+    return true;
+  }
 }
