@@ -28,4 +28,4 @@ Este é um clone simples do Twitter desenvolvido em PHP, utilizando a arquitetur
 1. Clone o repositório para o seu ambiente local.
 
    ```bash
-   git clone https://github.com/seu-usuario/twitter-clone.git
+   git clone https://github.com/murilonicemento/twitter-clone.git
