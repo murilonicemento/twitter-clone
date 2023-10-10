@@ -27,5 +27,24 @@ Este é um clone simples do Twitter desenvolvido em PHP, utilizando a arquitetur
 
 1. Clone o repositório para o seu ambiente local.
 
-   ```bash
-   git clone https://github.com/murilonicemento/twitter-clone.git
+```bash
+git clone https://github.com/murilonicemento/twitter-clone.git
+```
+
+2. Importe o arquivo SQL fornecido em database/twitter_clone.sql para criar o banco de dados e tabelas necessárias.
+
+3. Configure as credenciais do banco de dados no arquivo config/database.php.
+
+4. Inicie o servidor web.
+
+## Estrutura do Projeto
+
+- **App**: Contém os controladores, modelos e visualizações seguindo a estrutura MVC.
+- **public**: Arquivos públicos acessíveis pelo navegador (CSS e imagens).
+- **vendor**: Pasta gerada pelo Composer para armazenar as dependências.
+
+## Contribuição
+Sinta-se à vontade para contribuir com melhorias, correções de bugs ou novas funcionalidades. Abra uma issue para discutir grandes mudanças antes de enviar um pull request.
+
+## Licença
+Este projeto é licenciado sob a Licença MIT - veja o arquivo [LICENSE](./LICENSE) para detalhes.
